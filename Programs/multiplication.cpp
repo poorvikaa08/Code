@@ -5,6 +5,7 @@ int main(){
 
     int n;
 
+    cout << ">>> Multiplication <<<";
     cout << "Enter the number: ";
     cin >> n;
 

@@ -17,6 +17,7 @@ int nCr(int n, int r){
 
 int main(){                      // Main function
     int n,r;
+    cout << "Enter the values of n and r: ";
     cin >> n >> r;
 
     if(r>=n)
@@ -25,7 +26,7 @@ int main(){                      // Main function
     int result = nCr(n,r);
 
 
-    cout << result << endl;       //Function call
+    cout << n << "C" << r <<  " = " << result << endl;       //Function call
 
     return 0;
 }
